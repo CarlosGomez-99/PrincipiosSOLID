@@ -1,12 +1,13 @@
 namespace InterfaceSegregation
 {
-    public class Developer : IWorkTeamActivities, IDevelopActivities
+    public class Architect : IActivities
     {
-        public Developer()
+        public void Comunicate()
         {
+            throw new NotImplementedException();
         }
 
-        public void Comunicate()
+        public void Design()
         {
             throw new NotImplementedException();
         }
@@ -17,6 +18,11 @@ namespace InterfaceSegregation
         }
 
         public void Plan()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Test()
         {
             throw new NotImplementedException();
         }
